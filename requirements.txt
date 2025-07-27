@@ -1,0 +1,7 @@
+langgraph
+langchain_qdrant
+langchain
+crawl4ai
+langchain_google_genai
+langchain_ollama
+termcolor
