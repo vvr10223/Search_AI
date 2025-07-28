@@ -2,7 +2,7 @@ if ! docker ps --format '{{.Names}}' | grep -q "^searxng$"; then
   echo "🚀 Starting SearxNG container..."
   docker start searxng >/dev/null
 else
-  echo "✅ SearxNG container 'searxng' is already running"
+  echo "✅ SearxNG container is already running"
 fi
 
 cd /Users/venky/Desktop/SearchAI
