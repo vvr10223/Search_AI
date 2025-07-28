@@ -9,7 +9,7 @@ llm = ChatGoogleGenerativeAI(
     model= "gemini-2.0-flash",
     temperature=0.7,
     max_retries=2,
-    google_api_key=os.getenv("LLM_API_KEY")#"AIzaSyBRH3AEcj-ucJvRB2UbVwDewYpe9MYGkus",
+    google_api_key=os.getenv("LLM_API_KEY"),
 )
 from langchain_ollama import OllamaEmbeddings
 
